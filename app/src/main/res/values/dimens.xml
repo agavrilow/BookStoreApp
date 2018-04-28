@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="empty_shelf_pad_top">16dp</dimen>
+    <dimen name="empty_shelf_hint_pad_top">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="details_main_pad">16dp</dimen>
+    <dimen name="zero_width">0dp</dimen>
+    <dimen name="book_pad_left">4dp</dimen>
+    <dimen name="btn_width">48dp</dimen>
+    <dimen name="pcs_marg_right">2dp</dimen>
+    <dimen name="price_marg_right">5dp</dimen>
+    <dimen name="author_marg_top">5dp</dimen>
+    <dimen name="name_hint_top_margin">10dp</dimen>
+    <dimen name="list_item_min_height">100dp</dimen>
+    <dimen name="list_item_pad">16dp</dimen>
+    <dimen name="btn_text_size">20sp</dimen>
+</resources>

@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/list_item_min_height"
+    android:orientation="horizontal"
+    android:padding="@dimen/list_item_pad">
+
+    <LinearLayout
+        android:layout_width="@dimen/zero_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_marginTop="@dimen/name_hint_top_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/colorPrimaryText"
+            tools:text="@string/name_hint" />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/author_marg_top"
+            android:fontFamily="sans-serif"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/colorSecondaryText"
+            tools:text="@string/author_hint" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/zero_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="@dimen/zero_width"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/price_marg_right"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorAccent"
+                tools:text="@string/price_hint" />
+
+            <TextView
+                android:layout_width="@dimen/zero_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rur"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorAccent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="@dimen/zero_width"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/pcs_marg_right"
+                android:layout_weight="2"
+                android:fontFamily="sans-serif"
+                android:gravity="right"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/colorSecondaryText"
+                tools:text="@string/qty_hint" />
+
+            <TextView
+                android:layout_width="@dimen/zero_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:text="@string/pcs"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/colorSecondaryText" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_sell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:focusable="false"
+            android:text="@string/sell" />
+
+</LinearLayout>
+
